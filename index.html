@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frogger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Time Left: <span id="time-left">20</span></h3>
+    <h3 id="result"></h3>
+
+    <button id="start-pause-button">Start/Pause</button>
+
+    <div class="grid">
+        <!-- Starting Block -->
+        <div class="starting-block frog"></div>
+
+        <!-- Logs -->
+        <div class="log-left"></div>
+        <div class="log-right"></div>
+
+        <!-- Cars -->
+        <div class="car-left"></div>
+        <div class="car-right"></div>
+
+        <!-- Ending Block -->
+        <div class="ending-block"></div>
+
+    </div>
+    <div id="score">Score: 0</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
